@@ -20,9 +20,6 @@ Runs the app in the development mode<br>
     <code> 
 > React JS
 > JavaScript
-> FetchAPI
-> MaterialUI
-> Bootstrap
 > HTML5,CSS3
 </code>
 </pre>
