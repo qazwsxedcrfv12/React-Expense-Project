@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+#root {
+  font-family: cursive;
+  background-color: rgb(31, 30, 30);
+  margin: 160px;
+  padding: 23px;
+  border-radius: 17px;
+}
