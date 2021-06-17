@@ -1,4 +1,7 @@
-import ExpenseItem from './components/ExpenseItem'
+import React from 'react'
+
+import NewExpense from './components/NewExpense/NewExpense'
+import ExpenseItem from './components/Expenses/ExpenseItem'
 
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
   
   return (
     <div>
+      <NewExpense />
        <ExpenseItem
          title={expenses[0].title}
          date={expenses[0].date}
