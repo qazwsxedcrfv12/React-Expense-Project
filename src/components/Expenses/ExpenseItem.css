@@ -1,0 +1,56 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  background-color: #4b4b4b;
+}
+.expense-item__description {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+  font-size: 29px;
+  flex: 1;
+}
+.expense-item h2 {
+  color: #3a3a3a;
+  font-size: 1.4rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+.expense-item__price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+.moment {
+  border: 1px solid rgb(230, 228, 228);
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+  margin: 12px;
+  border-radius: 15px;
+  background-color: rgb(56, 55, 55);
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn {
+  margin: 29px;
+  padding: 12px;
+  background-color: rgb(247, 176, 70);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
